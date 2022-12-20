@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en" id="fullscreen">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/68b21beafa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="container-fluid mt-5 mb-5" id="discord">
+        <div class="row">
+            <!--Blank space Left-->
+            <div class="col-1 temporary-col"></div>
+            <!---->
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-end" id="discord-navbar">
+                        <i class="fa-solid fa-minus px-2 d-flex align-items-center" style="color: #c2c2c2"></i>
+                        <i id="fullScreenToggler" class="fa-regular fa-square px-2 d-flex align-items-center"
+                            style="color: #c2c2c2"></i>
+                        <i class="fa-solid fa-x px-2 d-flex align-items-center" style="color: #c2c2c2"></i>
+                    </div>
+                </div>
+                <div class="row left-serveur d-flex">
+                    <!--Server left icons-->
+                    <div class="col-1 left-bar-serveur">
+                        <div class="row">
+                            <div class="col-12 mt-2">
+                                <img class="img-fluid icon-server" src="./img/logo_discord.png" alt="" />
+                            </div>
+
+                            <div class="col-12 mt-2 bottom-line"></div>
+
+                            <div class="col-12 mt-2">
+                                <img class="img-fluid icon-server2 pink-serv" src="./img/serveur1.png" alt="" />
+                            </div>
+
+                            <div class="col-12 mt-2">
+                                <img class="img-fluid icon-server2 other-serv" src="./img/Server2.png" alt="" />
+                            </div>
+
+                            <div class="col-12 mt-2">
+                                <img class="img-fluid icon-server2 blue-serv" src="./img/server3.png" alt="" />
+                            </div>
+
+                            <div class="col-12 mt-2">
+                                <img class="img-fluid icon-server2 other-serv" src="./img/server4.png" alt="" />
+                            </div>
+
+                            <div class="col-12 mt-2">
+                                <img class="img-fluid icon-server2" src="./img/server5.png" alt="" />
+                            </div>
+
+                            <div class="col-12 mt-2 plus"></div>
+                            <span class="col-12"></span>
+                            <div class="col-12 mt-2 navigation"></div>
+                        </div>
+                    </div>
+                    <!--End server left icons-->
+
+                    <div class="col-2 navigation-left" style="padding: 0">
+                        <div class="d-flex align-items-start flex-column mb-3" style="height: 100% !important">
+                            <div class="p-2 w-100">
+                                <div class="list-group" id="myDIV">
+                                    <span class="list-menu mt-2 explore">Découvrir</span>
+                                    <span class="mt-3"></span>
+                                    <a href="#"
+                                        class="list-group-item list-group-item-action border-0 d-flex align-items-center active-menu btn"
+                                        aria-current="true">
+                                        <i class="fa-solid fa-compass icon-width m-left responsive-icon"
+                                            style="color: #e8e9eb">
+                                            <span
+                                                class="spanList list-menu ms-auto home-menu white-color">Accueil</span></i>
+                                    </a>
+                                    <a href="#"
+                                        class="list-group-item list-group-item-action border-0 d-flex align-items-center non-active-menu about btn"
+                                        aria-current="true">
+                                        <i class="fa-solid fa-puzzle-piece icon-width m-left responsive-icon"
+                                            style="color: #e8e9eb">
+                                            <span class="spanList list-menu ms-auto divertissement-menu wrap-menu">About
+                                                me</span></i>
+                                    </a>
+                                    <a href="#"
+                                        class="list-group-item list-group-item-action border-0 d-flex align-items-center non-active-menu btn"
+                                        aria-current="true">
+                                        <i class="fa-solid fa-graduation-cap icon-width m-left responsive-icon"
+                                            style="color: #e8e9eb">
+                                            <span
+                                                class="spanList list-menu ms-auto formation-menu wrap-menu">Formations</span></i>
+                                    </a>
+
+                                    <a href="#"
+                                    class="list-group-item list-group-item-action border-0 d-flex align-items-center non-active-menu btn"
+                                    aria-current="true">
+                                    <i class="fa-solid fa-earth-europe icon-width m-left responsive-icon"
+                                        style="color: #e8e9eb">
+                                        <span
+                                            class="spanList list-menu ms-auto formation-menu wrap-menu" style="margin-left: 5px!important;">Experience</span></i>
+                                     </a>
+
+                                    <a href="#"
+                                        class="list-group-item list-group-item-action border-0 d-flex align-items-center non-active-menu btn"
+                                        aria-current="true">
+                                        <i class="fa-solid fa-atom icon-width m-left responsive-icon"
+                                            style="color: #e8e9eb">
+                                            <span
+                                                class="spanList list-menu ms-auto techno-menu wrap-menu">Compétences</span></i>
+                                    </a>
+                                    <a href="#"
+                                        class="list-group-item list-group-item-action border-0 d-flex align-items-center non-active-menu btn"
+                                        aria-current="true">
+                                        <i class="fa-solid fa-certificate icon-width m-left responsive-icon"
+                                            style="color: #e8e9eb">
+                                            <span
+                                                class="spanList list-menu ms-auto divertissement-menu wrap-menu">Centres d'intérêt</span></i>
+                                    </a>
+                                    <a href="#"
+                                        class="list-group-item list-group-item-action border-0 d-flex align-items-center non-active-menu btn"
+                                        aria-current="true">
+                                        <i class="fa-solid fa-puzzle-piece icon-width m-left responsive-icon"
+                                            style="color: #e8e9eb">
+                                            <span
+                                                class="spanList list-menu ms-auto divertissement-menu wrap-menu">Certifications</span></i>
+                                    </a>
+                                    <a href="#"
+                                        class="list-group-item list-group-item-action border-0 d-flex align-items-center non-active-menu btn"
+                                        aria-current="true">
+                                        <i class="fa-solid fa-diagram-project icon-width m-left responsive-icon"
+                                            style="color: #e8e9eb">
+                                            <span
+                                                class="spanList list-menu ms-auto project-menu wrap-menu">Projets</span></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="container bg-dark-2 mt-auto w-100 align-self-end">
+                                <div class="row height-plus">
+                                    <div class="col-xl-4 col-lg-6 remove-padding remove-this">
+                                        <div class="d-flex">
+                                            <img class="img-fluid avatar-logo" src="./img/avatar.png" alt="" />
+                                            <div class="d-flex d-column name-hash-container">
+                                                <h6 class="name-discord">Inspi</h6>
+                                                <h6 class="hash">#7678</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-8 col-lg-6 remove-padding remove-this">
+                                        <div class="d-flex flex-row-reverse centered">
+                                            <i class="fa-brands fa-linkedin-in maargin tst" style="color: #b9bbbe"></i>
+                                            <i class="fa-brands fa-github maargin" style="color: #b9bbbe"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-8 col-lg-6 temporary">
+                                        <div class="displayed">
+                                            <i class="fa-brands fa-github aftered" style="color: #b9bbbe"></i>
+                                            <i class="fa-brands fa-linkedin-in aftered2" style="color: #b9bbbe"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col home-principal" id="home" style="z-index: 100">
+                        <div class="container text-center">
+                            <div class="row">
+                                <div class="col-sm-12 remove-padding-responsive">
+                                    <iframe id="myIframe" class="home-banner mt-3"
+                                        src='https://my.spline.design/3dtextbluecopy-ad6605329f3189bb50e5550b85558d89/'
+                                        frameborder='0' width='100%' height='350px'></iframe>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3 hover-cards1">
+                                    <img class="img-fluid cards home-cards pointer" id="cards1" src="./img/card1-home.png" alt="" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                                    <img class="img-fluid cards home-cards pointer" src="./img/card2-home.png" alt="" />
+                                </div>
+                                <div class="col-lg-12 col-xl-6 flex long-card-container">
+                                    <img class="img-fluid long-card long-card1 home-cards pointer" src="./img/card3-home.png" alt="" />
+                                    <img class="img-fluid long-card long-card1 home-cards pointer" src="./img/card4-home.png" alt="" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <img class="img-fluid mt-2" src="./img/separate.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="row mt-5">
+                                <div class="col-md-12 col-xl-6">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img class="img-fluid hover mt-2 home-cards pointer" src="./img/certifications.png" alt="">
+
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img class="img-fluid hover mt-2 home-cards pointer" src="./img/interets.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="row mt-2 exp mb-2">
+                                        <div class="col-md-6">
+                                            <img class="img-fluid  hover mt-2 home-cards pointer" src="./img/experiences.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-md-12 shop-container">
+                                    <div class="col-md-12">
+                                        <img class="img-fluid px-1 shop" src="./img/shop.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="mt-5"></span>
+                    </div>
+                    <div class="col" id="about-me">
+                        <div class="row">
+                            <img class="img-fluid" style="height: 50px; width: auto!important" src="./img/sung.png"
+                                alt="">
+                            <p class="pseudo">Inspi</p>
+                        </div>
+                        <div class="row">
+                            <span class="d-flex">
+                                <p class="px-2" style="color: #cacaca; padding: 0!important;">Ceci est le début de
+                                    l'historique de tes conversations privée avec @Inspi</p>
+                            </span>
+                        </div>
+                        <div class="row" id="border-bottom">
+                            <span class="d-flex" style="height: 25px!important;">
+                                <img class="vuejslogo" height="25px" src="./img/vuejs-logo.png" alt="">
+                                <p class="px-2 commun" style="color: #cacaca;">1 serveur en commun</p>
+                                <i class="fa-solid fa-circle fa-2xs"></i>
+                                <button class="add px-3">Ajouter</button>
+                                <button class="bloquer px-3">Bloquer</button>
+                            </span>
+                        </div>
+                        <div class="row" id="bot">
+                            <div class="col-md-12 wumpus">
+                                <img class="img-fluid wumpue-img" src="./img/wumpus-hello.gif" alt="">
+                                <button class="btn-wumpus" id="firstMessage">Faire coucou à Inspi</button>
+                            </div>
+                        </div>
+
+                        <article id="remove">
+                            <span id="dateConv">Border</span>
+                        </article>
+
+
+                        <div id="chatContainer">
+
+                        </div>
+
+                        <div class="row mb-1">
+                            <div class="col-md-12 input-container position-relative">
+                                <i
+                                    class="fa-solid fa-circle-plus fa-xl position-absolute top-50 start-40 ps-5 translate-middle"></i>
+                                <input id="input" type="text" class="ps-5" disabled>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Gaming PAGE-->
+                    <div class="col" id="gaming">
+
+                    </div>
+
+                    <div class="col" id="projet">
+                        <div class="row px-2 mt-3">
+                            <img class="col-xl-4 col-lg-6 col-sm-6 img-fluid mt-3 pointer" src="./img/projets/01.png" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal20">
+                            <img class="col-xl-4 col-lg-6 col-sm-6 mt-3 pointer" src="./img/projets/02.png" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal21">
+                            <img class="col-xl-4 col-lg-6 col-sm-6 mt-3 pointer" src="./img/projets/03.png" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal22">
+                        </div>
+
+                        <div class="row px-2 mt-3">
+                            <img class="col-xl-4 col-lg-6 col-sm-6 mt-3 pointer" src="./img/projets/04.png" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal23">
+                            <img class="col-xl-4 col-lg-6 col-sm-6 mt-3 pointer" src="./img/projets/05.png" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal24">
+                            <img class="col-xl-4 col-lg-6 col-sm-6 mt-3 pointer" src="./img/projets/06.png" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal25">
+                        </div>
+                    </div>
+
+                    <div class="col" id="competences">
+                        <div class="row">
+                            <img src="./img/competences/comp.png" class="img-fluid banner-competences" alt="">
+                        </div>
+                        <div class="row mt-5">
+                            <img class="col-xl-4 col-lg-12 img-fluid competences mt-3 pointer" src="./img/competences/01.png" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal17">
+                            <img class="col-xl-4 col-lg-12 img-fluid competences mt-3 pointer" src="./img/competences/02.png" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal18">
+                            <img class="col-xl-4 col-lg-12 img-fluid competences mt-3 pointer" src="./img/competences/03.png" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal19">
+                        </div>
+                    </div>
+
+                    <!--Certification PAGE-->
+                    <div id="certification" class="col">
+                        <div class="row mt-2">
+                            <img class="img-fluid" src="./img/certifications/openclassroom-banner.png" alt="">
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-xl-3 col-md-6 mt-2"><img class="img-fluid pointer"
+                                    src="./img/certifications/html-css-openclassroom.png" alt="" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal1"></div>
+                            <div class="col-xl-3 col-md-6 mt-2"><img class="img-fluid pointer"
+                                    src="./img/certifications/web-openclassroom.png" alt="" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal2"></div>
+                            <div class="col-xl-3 col-md-6 mt-2"><img class="img-fluid pointer"
+                                    src="./img/certifications/javascript-openclassroom.png" alt=""
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal3"></div>
+                            <div class="col-xl-3 col-md-6 mt-2"><img class="img-fluid pointer"
+                                    src="./img/certifications/terminal-openclassroom.png" alt="" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal4"></div>
+                        </div>
+                        <div class="row mt-5">
+                            <img class="img-fluid" src="./img/certifications/programming-hub-banner.png" alt="">
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-xl-3 col-md-6 mt-2"><img class="img-fluid pointer"
+                                    src="./img/certifications/bootstrap-programming-hub.png" alt=""
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal5"></div>
+                            <div class="col-xl-3 col-md-6 mt-2"><img class="img-fluid pointer"
+                                    src="./img/certifications/git-programming-hub.png" alt="" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal6"></div>
+                            <div class="col-xl-3 col-md-6 mt-2"><img class="img-fluid pointer"
+                                    src="./img/certifications/linux-programming-hub.png" alt="" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal7"></div>
+                            <div class="col-xl-3 col-md-6 mt-2"><img class="img-fluid pointer"
+                                    src="./img/certifications/php-programming-hub.png" alt="" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal8"></div>
+                            <div class="col-xl-3 col-md-6 mt-2"><img class="img-fluid pointer"
+                                    src="./img/certifications/css3-programming-hub.png" alt="" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal9"></div>
+                        </div>
+                    </div>
+                    <!--END Certification PAGE-->
+                    <div id="formation" class="col">
+                        <div class="row">
+                            <img class="col-12 img-fluid mt-3" src="./img/formations/esgi/banner.png" alt="">
+                        </div>
+                        <div class="row">
+                            <img class="img-fluid col-md-6 col-xl-3 mt-3 pointer" src="./img/formations/esgi/1.png"
+                                alt="" data-bs-toggle="modal" data-bs-target="#exampleModal10">
+                            <img class="img-fluid col-md-6 col-xl-3 mt-3 pointer" src="./img/formations/esgi/2.png"
+                                alt="" data-bs-toggle="modal" data-bs-target="#exampleModal11">
+                            <img class="img-fluid col-md-6 col-xl-3 mt-3 pointer" src="./img/formations/esgi/3.png"
+                                alt="" data-bs-toggle="modal" data-bs-target="#exampleModal12">
+                            <img class="img-fluid col-md-6 col-xl-3 mt-3" src="./img/formations/esgi/deco-esgi.png"
+                                alt="">
+                        </div>
+                        <div class="row">
+                            <img class="col-12 img-fluid mt-3" src="./img/formations/mariecurie/banner.png" alt="">
+                        </div>
+                        <div class="row marie">
+                            <img class="img-fluid col-md-6 col-xl-3 mt-3 pointer"
+                                src="./img/formations/mariecurie/1.png" alt="" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal13">
+                            <img class="img-fluid col-md-6 col-xl-3 mt-3 pointer"
+                                src="./img/formations/mariecurie/2.png" alt="" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal14">
+                            <img class="img-fluid col-md-6 col-xl-3 mt-3" src="./img/formations/mariecurie/3.png"
+                                alt="">
+                        </div>
+
+                        <div class="row">
+                            <img class="col-12 img-fluid mt-3" src="./img/formations/mireille/banner.png" alt="">
+                        </div>
+
+                        <div class="row marie">
+                            <img class="img-fluid col-md-6 col-xl-3 mt-3 pointer" src="./img/formations/mireille/1.png"
+                                alt="" data-bs-toggle="modal" data-bs-target="#exampleModal15">
+                            <img class="img-fluid col-md-6 col-xl-3 mt-3 pointer" src="./img/formations/mireille/2.png"
+                                alt="" data-bs-toggle="modal" data-bs-target="#exampleModal16">
+                            <img class="img-fluid col-md-6 col-xl-3 mt-3" src="./img/formations/mireille/3.png" alt="">
+                        </div>
+                    </div>
+
+                    <div id="experience" class="col">
+                        <div class="comingsoon mt-5">
+                            <img class="img-fluid" src="./img/sad.gif" alt="">
+                            <h3 class="mt-4 txt-coming">Coming soon...</h3>
+                            <h6 class="mt-5 funny">"Every day I get up and look through the 'Forbes' list of the richest people in America. If I'm not there, I go to work."</h6>
+                        </div>
+                    </div>
+
+                    <div id="interest" class="col">
+                        <div class="row">
+                            <img src="./img/ytb-banner.png" class="mt-3 img-fluid" alt="">
+                        </div>
+                        <div class="row mt-3">
+                            <div class="ratio ratio-16x9 mt-5">
+                                <iframe
+                                class=""
+                                src="https://www.youtube.com/embed/3uqeN2s60Pk"
+                                title="YouTube video"
+                                allowfullscreen
+                            ></iframe>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 mt-2">
+                                <img src="./img/netflix-banner.png" class="mt-3 img-fluid netflix" alt="">
+                            </div>
+                        </div>
+                        <div class="row mt-2 mb-3">
+                            <div class="col-xl-4">
+                                <img src="./img/viking.png" class="img-fluid rounded-3" alt="">
+                            </div>
+                            <div class="col-xl-4 my-1">
+                                <img src="./img/robot.png" class="img-fluid rounded-3" alt="">
+                            </div>
+                            <div class="col-xl-4">
+                                <img src="./img/breakingbad.png" class="img-fluid rounded-3" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-2" id="right-nav">
+                        <div class="row" id="right-nav-padding">
+                            <img class="img-fluid banner-linux" src="./img/right-nav/banner.png" alt="">
+                        </div>
+                        <div class="row">
+                            <img class="img-fluid right-nav-logo-size" src="./img/right-nav/logo.png" alt="">
+                            <img class="img-fluid badges" src="./img/right-nav/badges.png" alt="">
+                        </div>
+                        <div class="row">
+                            <div class="container right-nav-text-container mt-3">
+                                <div>
+                                    <h5 class="mt-2 inspi-title">Inspi<span class="inspi-hash">#7678</span></h5>
+                                </div>
+                                <hr class="hr">
+                                <div class="advice-container">
+                                    <span>
+                                        <h5 class="mt-2 advice-title">ADVICE<span class="inspi-hash"><img
+                                                    class="img-fluid advice-badge"
+                                                    src="./img/right-nav/advice-badge.png" alt=""></span></h5>
+                                    </span>
+                                    <div>
+                                        <p class="advice-txt">Always code as if the guy who ends up maintaining your
+                                            code will
+                                            be a violent psychopath who knows where you live.</p>
+                                    </div>
+
+                                    <span>
+                                        <h5 class="mt-2 advice-title">MEMBRE DISCORD DEPUIS<span class="inspi-hash"><img
+                                                    class="img-fluid advice-badge"
+                                                    src="./img/right-nav/discord-badge.png" alt=""></span></h5>
+                                    </span>
+                                    <div>
+                                        <p class="advice-txt">oct. 04, 2016<span><img class="img-fluid membre-badge"
+                                                    src="./img/right-nav/discord-membre.png" alt=""></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="container right-nav-text-container mt-3">
+                                <div>
+                                    <h5 class="mt-2 inspi-title flex-flex">ÉCOUTE SPOTIFY<span class="inspi-hash"><i
+                                                style="color: #1ED760;" class="fa-brands fa-spotify fa-lg"></i></span>
+                                    </h5>
+                                </div>
+                                <span>
+                                    <img class="img-fluid nightcall-img" src="./img/right-nav/nightcall.jpg" alt="">
+                                    <div style="display: flex;flex-direction: column;">
+                                        <span style="margin-top: 6px; margin-left: 8px"
+                                            class="advice-txt">Nightcall</span>
+                                        <span style="margin-left: 8px" class="kavinsky mt-1">de London Grammar</span>
+                                        <span style="margin-left: 8px" class="kavinsky mt-1">sur l'album if you
+                                            wait</span>
+                                    </div>
+                                </span>
+                                <img class="img-fluid" src="./img/right-nav/play-bar.png" alt="">
+                                <div class="timing">
+                                    <span class="time">3:53</span>
+                                    <span class="time">4:30</span>
+                                </div>
+                                <div class="button-spotify">
+                                    <a target="_blank"
+                                        href="https://open.spotify.com/album/0pMzRUC8E529jeJuWOc0J3?highlight=spotify:track:4SJJNXXlPT0KDVR8BIhY8F"><img
+                                            class="img-fluid mt-3" src="./img/right-nav/btn-spotify.png" alt=""></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--Blank space right-->
+            <div class="col-1 temporary-col"></div>
+            <!---->
+        </div>
+    </div>
+
+    <!--MODALS FOR CERTIFICATIONS-->
+    <div>
+        <!--HTML & CSS-->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">HTML & CSS</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid"
+                            src="./certifications/html-css-openclassroom/html-css-openclassroom-1.jpg" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END HTML & CSS-->
+
+        <!--Comprendre le Web-->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Comprendre le Web</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid"
+                            src="./certifications/comprendre-le-web-openclassroom/comprendre-le-web-openclassroom-1.jpg"
+                            alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END Comprendre le Web-->
+
+        <!--Javascript-->
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">JavaScript</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid"
+                            src="./certifications/javascript-openclassroom/javascript-openclassroom-1.jpg" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END Comprendre le Web-->
+
+        <!--Linux-->
+        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Linux</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid"
+                            src="./certifications/terminal-openclassroom/terminal-openclassroom-1.jpg" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END Linux-->
+
+
+        <!--Bootstrap-->
+        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Bootstrap</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid"
+                            src="./certifications/bootstrap-programming-hub/bootstrap-programming-hub-1.jpg" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END Bootstrap-->
+
+        <!--Git-->
+        <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Git & GitHub</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid" src="./certifications/git-programming-hub/git-programming-hub-1.jpg"
+                            alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END Git-->
+
+        <!--Linux-->
+        <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Linux</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid" src="./certifications/linux-programming-hub/linux-programming-hub-1.jpg"
+                            alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END Linux-->
+
+        <!--PHP-->
+        <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">PHP</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid" src="./certifications/php-programming-hub/php-programming-hub-1.jpg"
+                            alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END Php-->
+
+        <!--CSS-->
+        <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">CSS3</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid" src="./certifications/css-programming-hub/css-programming-hub-1.jpg"
+                            alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END CSS3-->
+
+
+        <!--ESGI - FORMATIONS-->
+        <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modal-content2">
+                    <div class="modal-body">
+                        <img class="img-fluid" src="./img/formations/esgi/1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modal-content2">
+                    <div class="modal-body">
+                        <img class="img-fluid" src="./img/formations/esgi/2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modal-content2">
+                    <div class="modal-body">
+                        <img class="img-fluid" src="./img/formations/esgi/3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END ESGI FORMATIONS-->
+
+
+
+        <!--mireille - FORMATIONS-->
+        <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modal-content2">
+                    <div class="modal-body">
+                        <img class="img-fluid" src="./img/formations/mariecurie/1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modal-content2">
+                    <div class="modal-body">
+                        <img class="img-fluid" src="./img/formations/mariecurie/2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END mireille FORMATIONS-->
+
+        <!--Marie Curie - FORMATIONS-->
+        <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modal-content2">
+                    <div class="modal-body">
+                        <img class="img-fluid" src="./img/formations/mireille/1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modal-content2">
+                    <div class="modal-body">
+                        <img class="img-fluid" src="./img/formations/mireille/2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END Marie Curie FORMATIONS-->
+
+
+        <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modal-content2">
+                    <div class="modal-body">
+                        <img class="img-fluid" src="./img/competences/01.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modal-content2">
+                    <div class="modal-body">
+                        <img class="img-fluid" src="./img/competences/02.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modal-content2">
+                    <div class="modal-body">
+                        <img class="img-fluid" src="./img/competences/03.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Projets Modal-->
+
+        <div class="modal fade" id="exampleModal20" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content modal-content2">
+                    <div class="modal-body">
+                        <img class="img-fluid" src="./img/projets/c.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="exampleModal21" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content modal-content2">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/lol/01.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/lol/02.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/lol/03.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/lol/04.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="modal fade" id="exampleModal22" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content modal-content2">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/camping/01.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/camping/03.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/camping/04.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/camping/05.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/camping/06.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/camping/07.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/camping/08.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/camping/09.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/camping/10.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/camping/11.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/camping/12.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/camping/13.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/camping/14.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/camping/15.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/camping/16.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/camping/17.PNG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="modal fade" id="exampleModal23" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content modal-content2">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/smash/01.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/smash/02.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/smash/03.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/smash/04.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/smash/05.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/smash/06.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/smash/07.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/smash/08.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/smash/09.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/smash/10.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/smash/11.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/smash/12.PNG" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/smash/13.PNG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="modal fade" id="exampleModal24" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content modal-content2">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/coachin/01.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/coachin/02.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/coachin/03.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/coachin/04.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/coachin/05.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/coachin/07.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/coachin/08.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/coachin/09.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/coachin/10.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/coachin/11.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="modal fade" id="exampleModal25" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content modal-content2">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/scanbanger/01.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/scanbanger/02.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/scanbanger/03.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/scanbanger/04.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/scanbanger/05.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/scanbanger/06.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/scanbanger/07.png" alt="">
+                                <img class="img-fluid mt-3 projets-img" src="./img/projets/scanbanger/08.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+
+
+
+    </script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
